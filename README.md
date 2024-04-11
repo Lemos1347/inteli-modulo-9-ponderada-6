@@ -46,6 +46,8 @@ E agora é só executar o código principal (_obs: é bom rodar com o time para 
   time ./zig-out/bin/1brc-zig measurements.txt
 ```
 
+<img width="1664" alt="Captura de Tela 2024-04-11 às 01 08 19" src="https://github.com/Lemos1347/inteli-modulo-9-ponderada-6/assets/99190347/72aca915-fcc3-4bdc-b247-d81fcbf32699">
+
 ### Explicação da solução
 
 O programa Zig fornecido é projetado para processar eficientemente um arquivo de texto grande que contém medições de temperatura de várias estações meteorológicas. O arquivo tem 1 bilhão de linhas, e o objetivo é calcular a temperatura mínima, média e máxima para cada estação. A solução utiliza uma abordagem multithreaded para lidar com o grande volume de dados de maneira eficiente.
